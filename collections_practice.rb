@@ -36,7 +36,7 @@ end
 
 def add_s(array)
    array.each_with_index do |name,index| 
-     if index! = 1 puts name << "s" 
+     if index! = 1 puts name << "s" else
    end
   end
 
