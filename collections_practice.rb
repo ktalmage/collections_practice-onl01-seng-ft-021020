@@ -35,6 +35,8 @@ return sum
 end
 
 def add_s(array)
+  if array[0]
+    
    array.each_with_index do |name,index| if index
    end
   end
