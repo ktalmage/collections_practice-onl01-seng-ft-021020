@@ -36,7 +36,7 @@ end
 
 def add_s(array)
    
-   array.each_with_index.collect {|name,index|  name << "s"} 
+   array.each_with_index.collect {|name,index|  if index! name << "s"} 
     
 end
 
