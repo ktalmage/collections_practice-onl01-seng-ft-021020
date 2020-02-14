@@ -35,8 +35,7 @@ return sum
 end
 
 def add_s(array)
-   array.each_with_index do |name,index| 
-     if index! = 1 puts name << "s" else
+   array.each_with_index do |name,index| if index
    end
   end
 
