@@ -35,7 +35,7 @@ return sum
 end
 
 def add_s(array)
-  array.reject {|index| index = 1}
+  array.each_with_index {|name,index| index.skip
    end
   
 
