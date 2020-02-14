@@ -40,5 +40,6 @@ def add_s(array)
    else array.each_with_index do 
      |name,index| name << "s"
    end
+   end
   end
 
