@@ -35,7 +35,7 @@ return sum
 end
 
 def add_s(array)
-  if array[1]
+  if array[1] = "feet"
     return nil
    else array.each_with_index do 
      |name,index| name << "s"
