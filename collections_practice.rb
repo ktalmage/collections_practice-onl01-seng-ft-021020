@@ -35,6 +35,9 @@ return sum
 end
 
 def add_s(array)
-  array.reject(1).each_with_index.collect {|name,index|   name << "s"}
+  if array[1]
+    nil
+    elsif array.each_with_index.collect {|name,index|   name << "s"}
+  end
 end
 
